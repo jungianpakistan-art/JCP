@@ -218,6 +218,7 @@ button,input,textarea{font:inherit}
 .footer-nav{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end}
 .footer-nav a{text-decoration:none;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#c7ccca}
 .footer-nav a:hover{color:var(--gold)}
+.footer-copyright{font-size:9px;letter-spacing:.04em;color:#8f9999;margin-top:8px}
 
 .page-header{
   position:relative;background:var(--ivory);border-bottom:1px solid var(--line);
