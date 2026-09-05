@@ -173,7 +173,7 @@ button,input,textarea{font:inherit}
   color:rgba(24,37,42,.45);
   font-size:10px;letter-spacing:.18em;text-transform:uppercase;
 }
-.center-copy{padding:28px 0}
+.center-copy{padding:28px 0;max-width:810px}
 .eyebrow{
   color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:10px;font-weight:600;
 }
@@ -282,6 +282,7 @@ button,input,textarea{font:inherit}
   .contact-routes{grid-template-columns:1fr}
   .contact-route{border-right:0;border-bottom:1px solid var(--line)}
   .cta-band .shell{flex-direction:column;align-items:flex-start}
+    .founder-photo{margin-top:0}
 }
 @media (max-width:640px){
   .shell,.hero-inner{width:min(calc(100% - 32px),var(--max))}
@@ -375,7 +376,7 @@ button,input,textarea{font:inherit}
 @media(max-width:640px){.offering-row{grid-template-columns:1fr 20px;gap:8px 14px}.offering-kind{grid-column:1/-1}.offering-name{font-size:24px}.offering-fact{grid-template-columns:1fr;gap:5px}}
 
 /* LOCAL COPY UPDATE — STORY OF THE CENTER: spacing accommodation only */
-.about-copy p{margin:0 0 20px}
+.about-copy p{margin:0 0 20px;text-align:justify;text-justify:inter-word}
 .about-copy p:last-child{margin-bottom:0}
 
 
@@ -386,6 +387,7 @@ button,input,textarea{font:inherit}
   overflow:visible;
   margin-left:auto;
   margin-right:0;
+  margin-top:38px;
 }
 .founder-photo img{
   display:block;
