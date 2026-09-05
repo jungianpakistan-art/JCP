@@ -239,9 +239,8 @@ button,input,textarea{font:inherit}
 .section-grid.reverse{grid-template-columns:.62fr .38fr}
 .section-label{font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--gold);font-weight:600}
 .section-title{font-family:var(--serif);font-size:42px;font-weight:500;line-height:1.02;margin:8px 0 0}
-.copy-col{max-width:720px}
-.copy-col p{margin-top:0}
-.copy-col .placeholder{margin-top:0}
+.copy-col{max-width:640px}
+.copy-col p{margin-top:0;text-align:justify;text-justify:inter-word}.copy-col .placeholder{margin-top:0}
 .practical-list{border-top:1px solid var(--line)}
 .practical-row{display:grid;grid-template-columns:180px 1fr;gap:28px;padding:15px 0;border-bottom:1px solid var(--line);font-size:14px}
 .practical-row dt{text-transform:uppercase;letter-spacing:.12em;font-size:10px;color:var(--gold)}
@@ -361,7 +360,7 @@ button,input,textarea{font:inherit}
 .rocks-offering-links a{display:block;padding:11px 0;border-bottom:1px solid rgba(24,37,42,.18);color:var(--ink);text-decoration:none;font-family:var(--serif);font-size:20px;line-height:1.15}
 .rocks-offering-links a:hover,.rocks-offering-links a:focus-visible{color:var(--gold)}
 
-.about-copy{max-width:720px;color:var(--ink-soft)} .about-copy p{margin:0 0 18px}
+.about-copy{max-width:640px;color:var(--ink-soft)} .about-copy p{margin:0 0 18px}
 .current-work{background:var(--ivory);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:74px 0}
 .current-work-grid{display:grid;grid-template-columns:.38fr .62fr;gap:10%;align-items:start}
 .offering-index{border-top:1px solid var(--line)}
@@ -400,21 +399,19 @@ button,input,textarea{font:inherit}
 }
 
 /* LOCAL CONTENT UPDATE — JUNGIAN PSYCHOTHERAPY */
-.psychotherapy-copy{max-width:720px}
+.psychotherapy-copy{max-width:640px}
 .psychotherapy-copy p{margin:0 0 22px}
-.psychotherapy-action{margin-top:34px}
-
+.psychotherapy-copy p{margin:0 0 22px;text-align:justify;text-justify:inter-word}
 /* LOCAL EDIT — SOCIETY PAGE ONLY */
-.society-qa{max-width:720px}
+.society-qa{max-width:640px}
 .society-qa-item{padding:0 0 26px;margin:0 0 28px;border-bottom:1px solid var(--line)}
 .society-qa-item h2{margin:0 0 9px;font-family:var(--serif);font-size:25px;line-height:1.15;font-weight:400}
 .society-qa-item p{margin:0;color:var(--ink-soft)}
 .society-action{margin-top:34px}
-.society-disclaimer{margin:15px 0 0;font-size:13px;line-height:1.5;color:var(--ink-soft)}
-.society-interest-link[aria-disabled="true"]{cursor:default}
+.society-qa-item p{margin:0;color:var(--ink-soft);text-align:justify;text-justify:inter-word}.society-interest-link[aria-disabled="true"]{cursor:default}
 
 /* LOCAL RUTH'S LIBRARY SPACING ONLY */
-.ruth-library-copy{max-width:720px}.ruth-library-copy p{margin:0 0 22px}
+.ruth-library-copy{max-width:640px}.ruth-library-copy p{margin:0 0 22px;text-align:justify;text-justify:inter-word}
 .ruth-library-copy blockquote{margin:4px 0 24px;padding:0;border:0;font:inherit;color:var(--ink-soft)}
 
 /* LOCAL ADDITION — FOR ANALYSTS */
