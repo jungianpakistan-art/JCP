@@ -455,35 +455,4 @@ button,input,textarea{font:inherit}
 
 .analyst-gate .copy-col{max-width:680px}
 
-/* STORY OF THE CENTER — SMALL EDITORIAL FOUNDER PORTRAIT */
 
-.center-story-grid{
-  display:block;
-}
-
-.founder-photo{
-  float:left;
-  width:280px;
-  height:auto;
-  margin:0 42px 28px 0;
-  overflow:visible;
-}
-
-.founder-photo img{
-  display:block;
-  width:100%;
-  height:auto;
-  max-width:100%;
-  object-fit:contain;
-}
-
-.center-copy{
-  display:block;
-  padding:0;
-}
-
-.center-story-grid::after{
-  content:"";
-  display:block;
-  clear:both;
-}
