@@ -454,7 +454,9 @@ button,input,textarea{font:inherit}
 @media (max-width:760px){.ruth-photo-wrap{width:min(58vw,230px);margin-top:30px;margin-bottom:38px}}
 
 .analyst-gate .copy-col{max-width:680px}
+
 /* STORY OF THE CENTER — SMALL EDITORIAL FOUNDER PORTRAIT */
+
 .center-story-grid{
   display:block;
 }
@@ -462,18 +464,26 @@ button,input,textarea{font:inherit}
 .founder-photo{
   float:left;
   width:280px;
-  height:340px;
+  height:auto;
   margin:0 42px 28px 0;
-  overflow:hidden;
+  overflow:visible;
 }
 
 .founder-photo img{
+  display:block;
   width:100%;
-  height:100%;
-  object-fit:cover;
-  object-position:center center;
+  height:auto;
+  max-width:100%;
+  object-fit:contain;
 }
 
 .center-copy{
+  display:block;
   padding:0;
+}
+
+.center-story-grid::after{
+  content:"";
+  display:block;
+  clear:both;
 }
