@@ -454,3 +454,26 @@ button,input,textarea{font:inherit}
 @media (max-width:760px){.ruth-photo-wrap{width:min(58vw,230px);margin-top:30px;margin-bottom:38px}}
 
 .analyst-gate .copy-col{max-width:680px}
+/* STORY OF THE CENTER — SMALL EDITORIAL FOUNDER PORTRAIT */
+.center-story-grid{
+  display:block;
+}
+
+.founder-photo{
+  float:left;
+  width:280px;
+  height:340px;
+  margin:0 42px 28px 0;
+  overflow:hidden;
+}
+
+.founder-photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+}
+
+.center-copy{
+  padding:0;
+}
